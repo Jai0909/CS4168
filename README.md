@@ -23,21 +23,23 @@ You can install the necessary packages using `pip`:
 ```sh
 pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 ```
-###Dataset
+### Dataset
 
 The dataset steel_industry_data_excerpt.csv should be placed in the same directory as the notebooks. This dataset contains the data used for exploration and model building.
 
-###Notebooks
+### Notebooks
 
-Data Exploration
+### Data Exploration
+
 The Data_Exploration.ipynb notebook includes:
 
-###Loading and cleaning the dataset.
+Loading and cleaning the dataset.
 
-Exploratory data analysis (EDA) including summary statistics and visualizations.
+### Exploratory data analysis (EDA) including summary statistics and visualizations.
+
 Feature engineering and selection.
 
-###Classification
+### Classification
 
 The Classifier.ipynb notebook includes:
 
@@ -46,7 +48,7 @@ The Classifier.ipynb notebook includes:
 - Hyperparameter tuning and model selection.
 - Saving the final model as final_model_class.sav.
   
-###Regression
+### Regression
 
 The Regression.ipynb notebook includes:
 
@@ -55,7 +57,7 @@ The Regression.ipynb notebook includes:
 - Hyperparameter tuning and model selection.
 - Saving the final model as final_model_reg.sav.
 
-###Clustering
+### Clustering
 
 The Clustering.ipynb notebook includes:
 
@@ -64,11 +66,11 @@ The Clustering.ipynb notebook includes:
 - Visualization of clustering results and insights.
 
 
-###Using the Saved Models
+### Using the Saved Models
 
 The saved models can be loaded and used for making predictions as follows:
 
-###Loading the Classification Model
+### Loading the Classification Model
 
 ```sh
 import joblib
@@ -80,7 +82,7 @@ model_class = joblib.load('final_model_class.sav')
 # predictions = model_class.predict(X_new)
 ```
 
-###Loading the Regression Model
+### Loading the Regression Model
 
 ```sh
 import joblib
